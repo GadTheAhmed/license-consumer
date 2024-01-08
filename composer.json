@@ -1,0 +1,31 @@
+{
+    "name": "laravel/audit",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Audit\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravel\\Audit\\Providers\\AuditsServiceProvider"
+            ]
+        }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/GadTheAhmed/license-consumer",
+        "options":  {
+            "http": {
+                "header": [
+                    "API-TOKEN: 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"
+                ]
+            }
+        }
+    }]
+
+}
